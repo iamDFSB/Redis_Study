@@ -1,0 +1,17 @@
+[project]
+name = "redis-course"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Daniel Felipe Santana Batista",email = "daniel.sbatista@shopee.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "redis (>=8.1.0,<9.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
